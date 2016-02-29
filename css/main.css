@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700);
+html, body {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+body h3 {
+  color: black;
+}
+
+.nav-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nav-container li {
+  display: inline;
+}
+
+.nav-container a {
+  display: inline-block;
+  padding: 1vw;
+}
+
+nav ul li a:link {
+  text-decoration: none;
+  color: #00A896;
+  font-size: 1.5em;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+}
+
+nav ul li a:visited {
+  text-decoration: none;
+  color: #00A896;
+}
+
+nav ul li a img {
+  width: 5em;
+  height: 5em;
+}
+
+footer {
+  height: 5%;
+  padding-top: 10px;
+  background-color: black;
+}
