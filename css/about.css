@@ -1,6 +1,11 @@
 #about-section {
   min-height: 100%;
-  background-image: url(https://static.pexels.com/photos/26110/pexels-photo-26110.jpg); /* Change this to team picture */
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url(../assets/aliiance_dance.JPG); /* Change this to team picture */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +25,7 @@
 #first-section {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url(https://static.pexels.com/photos/26110/pexels-photo-26110.jpg); /* Change this to team picture */
+  background-image: url(../assets/clifton_win.jpg); /* Change this to team picture */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
