@@ -1,0 +1,101 @@
+.intro {
+  height: 100%;
+  width: auto;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../assets/clifton_win.jpg); /* Change this to team picture */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.team-number {
+  position: absolute;
+  top: 25%;
+
+  width: auto;
+
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+  text-align: center;
+
+  font-size: 2vw;
+  letter-spacing: 1vw;
+  padding-left: 3vw;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+
+.team-name {
+  border: 5px solid #00A896;
+  color: #00A896;
+
+  width: 50%;
+  height: auto;
+
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+  font-size: 3em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+
+  padding: 2% 2% 2% 2%;
+}
+
+#about-section {
+  background-image: url(../assets/drive_team.JPG); /* Change this to team picture */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#about-section p {
+  padding: 2% 2% 2% 2%;
+  background-color: #00A896;
+  border-radius: 4px;
+}
+
+#sponsors-section {
+  background-color: #00A896;
+  min-height: 50%;
+  width: auto;
+}
+
+#logo-row img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 240px) {
+   /* really tiny screens */
+}
+@media (min-width: 241px) and (max-width: 319px) {
+   /* a little bit bigger screens */
+}
+@media (min-width: 320px) and (max-width: 767px) {
+   .team-name {
+       display: none;
+   }
+
+   .team-number {
+       top: 40%;
+   }
+}
+@media (min-width: 768px) {
+   /* iPad and bigger */
+}
